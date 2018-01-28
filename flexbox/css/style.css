@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    background: pink;
+    border: 5px dashed black;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+.flex-item{
+    width: 30%;
+    height: 100px;
+    flex: 0 1 auto;
+    margin-bottom: 20px;
+    background-color: skyblue
+}
+
+.flex-item:nth-child(odd){
+    background: tomato;
+}
+
