@@ -7,21 +7,19 @@ body{
 
 .flex-container{
     background: pink;
-    border: 5px dashed black;
-    width: 1500px;
+    //border: 5px dashed black;
+    width: 1000px;
+    height: 500px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    
-    
 }
 
 .flex-item{
-    width: 30%;
     height: 100px;
+    width: 30%;
     flex: 0 1 auto;
-    margin-bottom: 20px;
     background-color: skyblue
 }
 
