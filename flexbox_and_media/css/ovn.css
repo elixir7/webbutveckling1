@@ -1,0 +1,151 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body > div{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-2{
+    background: #596770;
+}
+.box{
+    width: 50%;
+    height: 400px;
+    background: #31373C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+/* Flex container 1 */
+.flex-container-1 {
+    width: 70%;
+    display: flex;
+    background-color: DodgerBlue;
+    margin-bottom: 20px;
+}
+
+  .flex-container-1>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+  }
+
+  /* Flex container extra */
+.flex-container-extra {
+  width: 70%;
+  display: flex;
+  background-color: DodgerBlue;
+  margin-bottom: 20px;
+}
+
+.flex-container-extra>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding:20px;
+  font-size: 30px;
+  flex: 1;
+}
+
+/* Flex container 2 */
+
+.flex-container-2 {
+    width: 70%;
+
+    display: flex;
+    
+    background-color: DodgerBlue;
+    margin-bottom: 20px;
+  }
+  
+  .flex-container-2 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+
+    flex: 1;
+  }
+
+
+  /* Flex container 3 */
+
+.flex-container-3 {
+    width: 70%;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: DodgerBlue;
+    margin-bottom: 20px;
+  }
+  
+  .flex-container-3 > div {
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+  }
+
+    /* Flex container 4 */
+
+.flex-container-4 {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    background-color: DodgerBlue;
+    margin-bottom: 20px;
+  }
+  
+  .flex-container-4 > div {
+    background-color: #f1f1f1;
+    width: 20%;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+  }
+
+  
+/*.flex-container-2 {
+    width: 70%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    background-color: DodgerBlue;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+  .flex-container-2>div {
+    background-color: #f1f1f1;
+    width: 30%;
+    
+    padding:20px 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }*/
+

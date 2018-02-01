@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    border: 4px dotted black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-areas: 
+    "banan banan banan"
+    "main header header"
+    "main small aside"
+    "blog-posts blog-posts blog-posts"
+    "footer footer footer"
+
+}
+
+.title{
+    grid-area: banan;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+header{
+    grid-area: header;
+    background: red;
+}
+
+.main-content{
+    grid-area: main;
+    background: green;
+}
+
+aside{
+    grid-area: aside;
+    background: yellow;
+}
+.small{
+    grid-area: small;
+    background: teal;
+}
+.blog-posts{
+    grid-area: blog-posts;
+    background: slateblue;
+    padding: 24px 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    flex: 1 1 30%;
+    background: gold;
+    text-align: center;
+     margin: 20px 10px;
+}
+
+footer{
+    grid-area: footer;
+    background: tomato;
+    text-align: center;
+    height: 100px;
+}
+
+.half{
+    flex: 1 1 45%;
+}
+
+
