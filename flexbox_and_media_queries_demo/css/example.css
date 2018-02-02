@@ -37,10 +37,10 @@ nav > div {
     display: flex;
     justify-content: center;
     align-items: center;
-};
+}
 
 nav > div:hover{
-    background: rgb(36, 40, 43)
+    background: rgb(36, 40, 43);
 }
 
 i{
@@ -122,6 +122,8 @@ p{
 
 
 /*    Show boxes    */
+
+
 .page-container{
     border: 5px solid green;
 }

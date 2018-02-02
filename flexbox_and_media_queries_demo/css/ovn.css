@@ -21,6 +21,8 @@ body > div{
 .container-2{
     background: #596770;
 }
+
+
 .box{
     width: 50%;
     height: 400px;
@@ -42,14 +44,14 @@ body > div{
     margin-bottom: 20px;
 }
 
-  .flex-container-1>div {
+  .flex-container-1 > div {
     background-color: #f1f1f1;
     margin: 10px;
     padding:20px;
     font-size: 30px;
   }
 
-  /* Flex container extra */
+/* Flex container extra */
 .flex-container-extra {
   width: 70%;
   display: flex;
@@ -57,7 +59,7 @@ body > div{
   margin-bottom: 20px;
 }
 
-.flex-container-extra>div {
+.flex-container-extra > div {
   background-color: #f1f1f1;
   margin: 10px;
   padding:20px;
@@ -82,7 +84,7 @@ body > div{
     padding:20px;
     font-size: 30px;
 
-    flex: 1;
+    
   }
 
 
@@ -106,7 +108,7 @@ body > div{
     font-size: 30px;
   }
 
-    /* Flex container 4 */
+/* Flex container 4 */
 
 .flex-container-4 {
     width: 70%;
@@ -126,26 +128,4 @@ body > div{
     padding:20px;
     font-size: 30px;
   }
-
-  
-/*.flex-container-2 {
-    width: 70%;
-    padding: 20px 20px;
-    margin-bottom: 20px;
-    background-color: DodgerBlue;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-}
-
-  .flex-container-2>div {
-    background-color: #f1f1f1;
-    width: 30%;
-    
-    padding:20px 0px;
-    margin-bottom: 20px;
-    font-size: 30px;
-  }*/
 
