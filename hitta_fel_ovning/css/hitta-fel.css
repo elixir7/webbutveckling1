@@ -3,7 +3,7 @@ body{
     height: 100vh;
     margin: 0;
 
-    display: flex;
+    displays: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
     width: 80%;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 150px 100px 300px 100px;
+    grid-rows: 150px 100px 300px 100px;
     grid-template-areas:
     "header header"
     "nav nav"
@@ -38,7 +38,7 @@ nav{
     grid-area: main;
     background: green;
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: space-between;
 }
 .box{
@@ -53,6 +53,6 @@ aside{
 }
 
 footer{
-    grid-area: footer;
+    grid-area: fter;
     background: tomato;
 }
