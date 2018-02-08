@@ -60,6 +60,41 @@ footer{
 
 
 
+/* Exempel på responsive */
+@media screen and (max-width: 800px){
+    .container{
+        grid-template-columns: 1fr 1fr; 
+        grid-template-areas: 
+            "title title"
+            "main header"
+            "main small"
+            "main news"
+            "footer footer"
+    }
+    /* Aside ska inte vara med när skärmen blir för liten */
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        grid-template-columns: 1fr; 
+        grid-template-rows: 10% 50% 15% 15% 10%;
+        grid-template-areas: 
+            "header"
+            "main"
+            "small"
+            "news"
+            "footer"
+    }
+    .title{
+        display: none;
+    }
+}
+
+
+
 
 
 
