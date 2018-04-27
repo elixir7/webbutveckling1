@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+*{
+    text-align: center;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    border: 4px dotted black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 100px 50px 200px 100px 100px 100px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "news news aside"
+    "article1 article2 aside"
+    "article3 article4 aside"
+    "footer footer footer"
+}
+
+header{
+    grid-area: header;
+    background: lightgray;
+}
+
+nav{
+    grid-area: nav;
+    background: lightblue;
+}
+
+.news{
+    grid-area: news;
+    background: lightcoral
+}
+
+.aside{
+    grid-area: aside;
+    background: orange;
+}
+
+.article{
+    background: lightgreen;
+}
+
+#article1{
+    grid-area: article1;
+}
+
+#article2{
+    grid-area: article2;
+}
+
+#article3{
+    grid-area: article3;
+}
+
+#article4{
+    grid-area: article4;
+}
+
+footer{
+    grid-area: footer;
+    background: darkgray;
+}
