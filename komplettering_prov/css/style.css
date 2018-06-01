@@ -16,7 +16,7 @@ body {
     background: lightgray;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 250px 80px auto 150px;
+    grid-template-rows: 100px 70px auto 100px;
     grid-template-areas: 
         "header header" 
         "nav nav" 
@@ -53,12 +53,13 @@ main {
     grid-area: main;
     padding: 20px 30px;
 }
+main img{
+    width: 50%;
+}
 
 aside {
     grid-area: aside;
-    background-image: url("../img/car.jpg");
-    background-size: cover;
-    background-position: center;
+    background: #777;
     color: white;
 }
 
@@ -90,6 +91,9 @@ footer h3 {
             "aside"
             "main"
             "footer"
+    }
+    main img{
+        width: 100%;
     }
 }
 
